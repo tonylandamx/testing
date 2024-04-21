@@ -1,4 +1,4 @@
-dirconst { evenOrOdd } = require("./evenOrOdd.js");
+const { evenOrOdd } = require("./evenOrOdd.js");
 
 describe('isEvenOrOdd', () => {
     test('returns Even for even number', () => {
